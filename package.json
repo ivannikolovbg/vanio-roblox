@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "build": "echo 'skip'",
+    "start": "npx tsx src/bot/index.ts",
     "lint": "eslint",
     "bot": "npx tsx src/bot/index.ts",
     "bot:dev": "npx tsx watch src/bot/index.ts"
